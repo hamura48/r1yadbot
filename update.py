@@ -43,7 +43,7 @@ if os.path.exists('.git'):
     subprocess.run(["rm", "-rf", ".git"])
 
 subprocess.run([f"git init -q \
-                  && git config --global user.email e.anastayyar@gmail.com \
+                  && git config --global user.email e.likeracademy@gmail.com \
                   && git config --global user.name mltb \
                   && git add . \
                   && git commit -sm update -q \
